@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    background: #000;
+    margin: 0;
+  }
+  div {
+    background: #fff;
+    width: 400px;
+    height: 510px;
+    margin: auto;
+    padding: 30px;
+  }
+  h2 {
+    text-align: center;
+    color: #233153;
+    font-weight: 700;
+  }
+  .text {
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+  }
+  input {
+    background: rgb(250, 247, 247);
+    margin-top: 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+
+  }
+  information1 {
+    color: #233153;
+    font-weight: 600;
+    font-size: 90%;
+    margin-bottom: 5px;
+
+  }
+
+  .input {
+    margin-top: 0;
+  }
+  input:focus {
+    border: 1px solid rgba(133, 89, 236, 0.3);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(133, 89, 236, 0.3);
+
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+  .button {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .Create-button {
+    background: #895bf7;
+    color: #f3f1f1;
+  } 
+   .Sing-in-button {
+    background: #fff;
+    color: #233153;
+   }  
